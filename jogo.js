@@ -182,6 +182,7 @@ function exibirPergunta() {
     alts.forEach(radio => {
         radio.addEventListener('click', () => respostaDoUsuario(radio));
     });
+
 };
 
 function perguntaAleatoria() {

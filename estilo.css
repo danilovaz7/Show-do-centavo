@@ -170,7 +170,7 @@ body {
     height: 250px;
 }
 
-header {
+#header-index {
     text-align: center;
 }
 
@@ -313,7 +313,6 @@ a {
     padding: 20px;
     border: 3.5px solid #FFD700;
     width: 30%; 
-    height: 375px;
     border-radius: 20px;
     box-shadow: 0 0 20px #FFD700; 
     color: #FFD700; 
@@ -351,4 +350,175 @@ a {
 #alertOkBtn:hover {
     background-color: #fff;
     color: #001f4d;
+}
+
+@media (max-width: 500px) {
+    #main-jogo {
+        gap: 50px;
+    }
+    
+   
+    #topo {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+    
+    
+    #topo img {
+        width: 100%;
+      
+    }
+     
+    #pontuacao {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+    
+    .pontuacao-espaco {
+        width: 400px;
+        height: 60px;
+        margin-left: 0px;
+    }
+    
+    
+    #pergunta {
+        font-size: 16px;
+        width: 100%;
+        height: 300px;
+       
+   
+    }
+   
+    
+    #pontuacao img {
+        margin-top: 7px;
+        width: 90%;
+    }
+
+    #alternativas {
+        width: 100%;
+        height: 350px;
+ 
+    }
+    
+    
+    #form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    #todas-alternativas {
+        
+        gap: 30px;
+    }
+    
+    .alternativa {
+        width: 100%;
+        border-radius: 5px;
+        gap: 5px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .alternativaUsuario {
+        background-color: rgb(192, 192, 33);
+        color: black;
+    }
+    
+    .alternativaCorreta {
+        background-color: green;
+        color: black;
+    }
+    
+    .errou {
+        background-color: red;
+    }
+    
+    #todas-alternativas :hover {
+        background-color: rgb(192, 192, 33);
+        }
+
+    #botao-form {
+        width: 80%;
+        padding: 0.7em;
+        color: white;
+        background-color: rgb(245, 35, 35);
+        border: 1px solid rgb(245, 35, 35);
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+    }
+
+    /* index*/
+
+    #body-index{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        width: 100%;
+        border: 5px solid #FFD700; 
+        border-radius: 20px;
+     
+    }
+
+    #header-index img{
+        width: 400px;
+    }
+   
+    .alert {
+        
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .alertContent {
+        
+        width: 70%; 
+       
+           
+    }
+ 
+
+    /*resultado*/
+    #header-resultados img {
+        width: 400px;
+    }
+    
+    #mainResultados {
+        font-size: 16px;
+       
+    }
+    
+    
+    
+    .resultadoWrapper {
+        
+        font-size: 15px;
+    }
+    
+
+    
+    .resultadoWrapper p {
+        
+        font-size: 20px;
+    }
+    
+    .resultadoWrapper button {
+        margin-top: 20px;
+    
+    }
+    
+  
+    
+  
+
 }
