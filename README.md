@@ -70,7 +70,7 @@ O Show dos Centavos é um projeto divertido e nostálgico, perfeito para quem de
 
 Teste seus conhecimentos e veja quantos centavos você consegue acumular. Boa sorte! 🎯
 
-Autor: Seu Nome
+Autores: Danilo Vaz e Caio Cunha
 
 
 
