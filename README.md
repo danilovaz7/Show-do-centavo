@@ -36,11 +36,11 @@ O **Show dos Centavos** é um jogo de quiz com perguntas variadas. A dinâmica �
 
 Este é um projeto amador e muito fácil de rodar! Basta seguir os passos abaixo:
 
-Clone ou Baixe o Repositório:
+- Clone ou Baixe o Repositório:
 
 git clone https://github.com/seu-usuario/show-dos-centavos.git
 
-Abra o Arquivo HTML:
+- Abra o Arquivo HTML:
 
 Navegue até a pasta do projeto e abra o arquivo index.html diretamente no seu navegador.
 
